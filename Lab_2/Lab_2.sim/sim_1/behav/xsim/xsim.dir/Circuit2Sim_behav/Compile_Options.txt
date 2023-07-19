@@ -1,0 +1,1 @@
+-wto "e6a34bfce1da49f2821c821e5dba9a28" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Circuit2Sim_behav" "xil_defaultlib.Circuit2Sim" -log "elaborate.log" 
