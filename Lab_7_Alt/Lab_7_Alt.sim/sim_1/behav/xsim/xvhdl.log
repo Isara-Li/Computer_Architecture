@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Isara Liyanage/Lab_7_Alt/Lab_7_Alt.srcs/sources_1/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Isara Liyanage/Lab_7_Alt/Lab_7_Alt.srcs/sim_1/new/LUT_Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_Sim
