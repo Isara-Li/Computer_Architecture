@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Nano_Processor_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Nano_Processor_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="143809524fs"></ZoomEndTime>
+      <Cursor1Time time="422857000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/Nano_Processor_TB/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/ROM_Zero/memorySel" type="array">
+      <obj_property name="ElementShortName">memorySel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">memorySel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/ROM_Zero/Instruction_Bus" type="array">
+      <obj_property name="ElementShortName">Instruction_Bus[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_Bus[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/ROM_Zero/instruction_ROM" type="array">
+      <obj_property name="ElementShortName">instruction_ROM[0:7][11:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_ROM[0:7][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/R7_out" type="array">
+      <obj_property name="ElementShortName">R7_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R7_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/A" type="array">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/B" type="array">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/S" type="logic">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/S_out" type="array">
+      <obj_property name="ElementShortName">S_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA0_S" type="logic">
+      <obj_property name="ElementShortName">FA0_S</obj_property>
+      <obj_property name="ObjectShortName">FA0_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA0_C" type="logic">
+      <obj_property name="ElementShortName">FA0_C</obj_property>
+      <obj_property name="ObjectShortName">FA0_C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA1_S" type="logic">
+      <obj_property name="ElementShortName">FA1_S</obj_property>
+      <obj_property name="ObjectShortName">FA1_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA1_C" type="logic">
+      <obj_property name="ElementShortName">FA1_C</obj_property>
+      <obj_property name="ObjectShortName">FA1_C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA2_S" type="logic">
+      <obj_property name="ElementShortName">FA2_S</obj_property>
+      <obj_property name="ObjectShortName">FA2_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA2_C" type="logic">
+      <obj_property name="ElementShortName">FA2_C</obj_property>
+      <obj_property name="ObjectShortName">FA2_C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA3_S" type="logic">
+      <obj_property name="ElementShortName">FA3_S</obj_property>
+      <obj_property name="ObjectShortName">FA3_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/FA3_C" type="logic">
+      <obj_property name="ElementShortName">FA3_C</obj_property>
+      <obj_property name="ObjectShortName">FA3_C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/ctrl_b0" type="logic">
+      <obj_property name="ElementShortName">ctrl_b0</obj_property>
+      <obj_property name="ObjectShortName">ctrl_b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/ctrl_b1" type="logic">
+      <obj_property name="ElementShortName">ctrl_b1</obj_property>
+      <obj_property name="ObjectShortName">ctrl_b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/ctrl_b2" type="logic">
+      <obj_property name="ElementShortName">ctrl_b2</obj_property>
+      <obj_property name="ObjectShortName">ctrl_b2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/ctrl_b3" type="logic">
+      <obj_property name="ElementShortName">ctrl_b3</obj_property>
+      <obj_property name="ObjectShortName">ctrl_b3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/temp0" type="logic">
+      <obj_property name="ElementShortName">temp0</obj_property>
+      <obj_property name="ObjectShortName">temp0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/temp1" type="logic">
+      <obj_property name="ElementShortName">temp1</obj_property>
+      <obj_property name="ObjectShortName">temp1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/temp2" type="logic">
+      <obj_property name="ElementShortName">temp2</obj_property>
+      <obj_property name="ObjectShortName">temp2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Nano_Processor_TB/uut/Add_Sub_RCA_Zero/temp3" type="logic">
+      <obj_property name="ElementShortName">temp3</obj_property>
+      <obj_property name="ObjectShortName">temp3</obj_property>
+   </wvobject>
+</wave_config>

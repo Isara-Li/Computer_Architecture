@@ -1,0 +1,531 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun 11 16:12:49 2023
+# Process ID: 21980
+# Current directory: C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.runs/synth_1
+# Command line: vivado.exe -log System.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System.tcl
+# Log file: C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.runs/synth_1/System.vds
+# Journal file: C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source System.tcl -notrace
+Command: synth_design -top System -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31268 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 382.105 ; gain = 97.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'System' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/System.vhd:44]
+INFO: [Synth 8-3491] module 'SlowClock' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/SlowClk.vhd:34' bound to instance 'SlowClock_Zero' of component 'SlowClock' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/System.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'SlowClock' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/SlowClk.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'SlowClock' (1#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/SlowClk.vhd:40]
+INFO: [Synth 8-3491] module 'Nano_Processor' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:34' bound to instance 'Nano_Processor_Zero' of component 'Nano_Processor' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/System.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'Nano_Processor' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:42]
+INFO: [Synth 8-3491] module 'Program_Counter_3bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:34' bound to instance 'Program_Counter_3bit_Zero' of component 'Program_Counter_3bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter_3bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (2#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:43]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:70]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter_3bit' (3#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Program_Counter_3bit.vhd:41]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/ROM.vhd:26' bound to instance 'ROM_Zero' of component 'ROM' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/ROM.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (4#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/ROM.vhd:31]
+INFO: [Synth 8-3491] module 'adder_3_bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:34' bound to instance 'adder_3_bit_Zero' of component 'adder_3_bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'adder_3_bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:39]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (5#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'FA' (6#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:63]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'adder_3_bit' (7#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/3_bit_adder.vhd:39]
+INFO: [Synth 8-3491] module 'Mux_2_to_1_3bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:34' bound to instance 'Mux_2_to_1_3bit_Zero' of component 'Mux_2_to_1_3bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1_3bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_Zero' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1' (8#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_One' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:58]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_Two' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1_3bit' (9#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_3bit.vhd:41]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_Zero' of component 'Instruction_Decoder' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+WARNING: [Synth 8-614] signal 'In_Reg_Check' is read in the process but is not in the sensitivity list [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (10#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'Add_Sub_RCA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:34' bound to instance 'Add_Sub_RCA_Zero' of component 'Add_Sub_RCA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'Add_Sub_RCA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:60]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:67]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:74]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'Add_Sub_RCA' (11#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Add_Sub_RCA.vhd:43]
+INFO: [Synth 8-3491] module 'Mux_2_to_1_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:34' bound to instance 'Mux_2_to_1_4bit_Zero' of component 'Mux_2_to_1_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_Zero' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:51]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_One' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:58]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_Two' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:65]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_Three' of component 'Mux_2_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1_4bit' (12#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Mux_2_to_1_4bit.vhd:41]
+INFO: [Synth 8-3491] module 'Register_Bank_8' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:34' bound to instance 'Register_Bank_8_Zero' of component 'Register_Bank_8' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank_8' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:50]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0ne' of component 'Decoder_3_to_8' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decode_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (13#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_2_to_4.vhd:34' bound to instance 'Decode_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (14#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_0' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:53]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:62]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:71]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:34' bound to instance 'D_FF_3' of component 'D_FF' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'Register_4bit' (15#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:42]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_1' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:84]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_2' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:92]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_3' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:100]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_4' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:108]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_5' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:116]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_6' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:124]
+INFO: [Synth 8-3491] module 'Register_4bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register.vhd:34' bound to instance 'Register_4bit_7' of component 'Register_4bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank_8' (16#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Register_Bank_8.vhd:50]
+INFO: [Synth 8-3491] module 'Mux_8_way_4_bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:34' bound to instance 'Mux_8_way_4_bit_A' of component 'Mux_8_way_4_bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_way_4_bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_Zero' of component 'Mux_8_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decode_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (17#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_One' of component 'Mux_8_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:70]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_Two' of component 'Mux_8_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:85]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_Three' of component 'Mux_8_to_1' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_4_bit' (18#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_way_4_bit' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/8_way_4_bit_Mux.vhd:34' bound to instance 'Mux_8_way_4_bit_B' of component 'Mux_8_way_4_bit' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'Nano_Processor' (19#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Nano_Processor.vhd:42]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/lut.vhd:34' bound to instance 'LUT_16_7_Zero' of component 'LUT_16_7' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/System.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/lut.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (20#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/lut.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'System' (21#1) [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/System.vhd:44]
+WARNING: [Synth 8-3917] design System has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 437.480 ; gain = 152.641
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 437.480 ; gain = 152.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 437.480 ; gain = 152.641
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Finished Parsing XDC File [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 771.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'ClkOut_reg' into 'clockStatus_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/SlowClk.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element ClkOut_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/SlowClk.vhd:51]
+INFO: [Synth 8-5545] ROM "Count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clockStatus" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "instruction_ROM" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'Register_en_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:53]
+WARNING: [Synth 8-327] inferring latch for variable 'Load_sel_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:62]
+WARNING: [Synth 8-327] inferring latch for variable 'Jump_Flag_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:63]
+WARNING: [Synth 8-327] inferring latch for variable 'Add_Sub_Sel_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'Address_to_Jump_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:116]
+WARNING: [Synth 8-327] inferring latch for variable 'Immediate_val_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'Mux_A_En_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'Mux_B_En_reg' [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/Instruction_Decoder.vhd:71]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 71    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     12 Bit        Muxes := 1     
+	  17 Input      7 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SlowClock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module ROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Instruction_Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 7     
+Module Add_Sub_RCA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Program_Counter_3bit_Zero/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Program_Counter_3bit_Zero/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Program_Counter_3bit_Zero/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_0/Q_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_1/Q_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_2/Q_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_3/Q_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_0/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_1/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_1/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_1/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_1/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_2/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_2/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_2/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_2/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_3/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_3/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_3/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_3/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_7/D_FF_0/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_7/D_FF_1/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_7/D_FF_2/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_7/D_FF_3/Qbar_reg was removed.  [C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.srcs/sources_1/new/D_Flip_Flop.vhd:50]
+INFO: [Synth 8-5545] ROM "SlowClock_Zero/Count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "SlowClock_Zero/clockStatus" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design System has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design System has port Anode[0] driven by constant 0
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Instruction_Decoder_Zero/Immediate_val_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Immediate_val_reg[3]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Register_en_reg[2]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Register_en_reg[1]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Register_en_reg[0]) is unused and will be removed from module System.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 771.848 ; gain = 487.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 782.582 ; gain = 497.742
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_1/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_0/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_0/Q_reg'
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_3/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_3/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Instruction_Decoder_Zero/Mux_B_En_reg[2] )
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_4/D_FF_2/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_1/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_1/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_1/Q_reg )
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_0/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_0/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_0/Q_reg )
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_3/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_3/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_3/Q_reg )
+INFO: [Synth 8-3886] merging instance 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_6/D_FF_2/Q_reg' (FDRE) to 'Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_2/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Nano_Processor_Zero/Instruction_Decoder_Zero/Add_Sub_Sel_reg )
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Add_Sub_Sel_reg) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Instruction_Decoder_Zero/Mux_B_En_reg[2]) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_0/Q_reg) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_1/Q_reg) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_2/Q_reg) is unused and will be removed from module System.
+WARNING: [Synth 8-3332] Sequential element (Nano_Processor_Zero/Register_Bank_8_Zero/Register_4bit_5/D_FF_3/Q_reg) is unused and will be removed from module System.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     2|
+|4     |LUT2   |     2|
+|5     |LUT3   |    13|
+|6     |LUT4   |    21|
+|7     |LUT5   |    13|
+|8     |LUT6   |    11|
+|9     |FDRE   |    52|
+|10    |LD     |    11|
+|11    |LDC    |     1|
+|12    |LDP    |     1|
+|13    |IBUF   |     2|
+|14    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------+---------------------+------+
+|      |Instance                      |Module               |Cells |
++------+------------------------------+---------------------+------+
+|1     |top                           |                     |   155|
+|2     |  Nano_Processor_Zero         |Nano_Processor       |    83|
+|3     |    Instruction_Decoder_Zero  |Instruction_Decoder  |    29|
+|4     |    Program_Counter_3bit_Zero |Program_Counter_3bit |    20|
+|5     |      D_FF_0                  |D_FF_18              |     5|
+|6     |      D_FF_1                  |D_FF_19              |     6|
+|7     |      D_FF_2                  |D_FF_20              |     9|
+|8     |    Register_Bank_8_Zero      |Register_Bank_8      |    34|
+|9     |      Decoder_3_to_8_0ne      |Decoder_3_to_8       |     3|
+|10    |        Decode_2_to_4_0       |Decoder_2_to_4       |     3|
+|11    |      Register_4bit_1         |Register_4bit        |     4|
+|12    |        D_FF_0                |D_FF_14              |     1|
+|13    |        D_FF_1                |D_FF_15              |     1|
+|14    |        D_FF_2                |D_FF_16              |     1|
+|15    |        D_FF_3                |D_FF_17              |     1|
+|16    |      Register_4bit_2         |Register_4bit_0      |    12|
+|17    |        D_FF_0                |D_FF_10              |     3|
+|18    |        D_FF_1                |D_FF_11              |     3|
+|19    |        D_FF_2                |D_FF_12              |     3|
+|20    |        D_FF_3                |D_FF_13              |     3|
+|21    |      Register_4bit_3         |Register_4bit_1      |     4|
+|22    |        D_FF_0                |D_FF_6               |     1|
+|23    |        D_FF_1                |D_FF_7               |     1|
+|24    |        D_FF_2                |D_FF_8               |     1|
+|25    |        D_FF_3                |D_FF_9               |     1|
+|26    |      Register_4bit_7         |Register_4bit_2      |    11|
+|27    |        D_FF_0                |D_FF                 |     1|
+|28    |        D_FF_1                |D_FF_3               |     1|
+|29    |        D_FF_2                |D_FF_4               |     1|
+|30    |        D_FF_3                |D_FF_5               |     8|
+|31    |  SlowClock_Zero              |SlowClock            |    52|
++------+------------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 783.398 ; gain = 164.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 783.398 ; gain = 498.559
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 4 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  LD => LDCE: 8 instances
+  LD => LDCE (inverted pins: G): 3 instances
+  LDC => LDCE: 1 instances
+  LDP => LDPE (inverted pins: G): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+128 Infos, 67 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 784.945 ; gain = 512.117
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Isara Liyanage/Nano_Lab/Nano_Lab.runs/synth_1/System.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file System_utilization_synth.rpt -pb System_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 784.945 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 11 16:13:19 2023...
